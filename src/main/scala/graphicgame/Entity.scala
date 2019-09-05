@@ -9,6 +9,5 @@ class Entity (private var x:Double, private var y:Double) {
         val intersectX = (x - e.x).abs < (width + e.width)/2
         val intersectY = (y - e.y).abs < (height + e.height)/2
         intersectX && intersectY
-
     }
 }
